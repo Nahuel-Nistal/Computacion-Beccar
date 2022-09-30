@@ -258,22 +258,9 @@
   margin-top: 30px;
 }
 
-.info-serv-2 {
-  background-color: aqua;
-  grid-area: info-grid2;
-  text-align: center;
-}
-
 .cajas-serv {
   background-color: #ffd414;
   grid-area: caja;
-  display: flex;
-  justify-content: space-around;
-}
-
-.cajas-serv-2 {
-  background-color: #ffd414;
-  grid-area: caja2;
   display: flex;
   justify-content: space-around;
 }
@@ -310,6 +297,35 @@
 .titulo-bloq {
   position: relative;
   bottom: 2cm;
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0.1cm;
+}
+
+.titulo-bloq:hover {
+  animation: cambioColor 4s infinite;
+}
+
+@keyframes cambioColor {
+
+  0% {
+    background-color: #000;
+
+  }
+}
+
+.info-serv-2 {
+  background-color: aqua;
+  grid-area: info-grid2;
+  text-align: center;
+}
+
+.cajas-serv-2 {
+  background-color: #ffd414;
+  grid-area: caja2;
+  display: flex;
+  justify-content: space-around;
 }
 
 /*FIN DE PAGINA DE SERVICIO TECNICO*/
@@ -447,5 +463,38 @@
     width: 20%;
   }
 
+  /*FIN DE PAGINA DE INICIO*/
+
+  .serv-seccion {
+    width: 100%;
+    border: solid 4px blue;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 960px 1250px 330px 1250px;
+    grid-template-areas:
+      "info-grid info-grid info-grid"
+      "caja caja caja"
+      "info-grid2 info-grid2 info-grid2"
+      "caja2 caja2 caja2";
+   
+  }
+
+  .cajas-serv {
+    display: block;
+  }
+
+  .bloque-serv1 {
+    left: 0px;
+  }
+  
+  .bloque-serv3 {
+    right: 0px;
+  }
+
+  .cajas-serv-2 {
+    display: block;
+  }
+ 
 
 }
