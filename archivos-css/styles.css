@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
+/*----------     PAGINA DE INICIO     ----------*/
+
 .header-container {
-  background-color: rgb(255, 255, 255);
-  padding: 0px 20px;
+  background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
 }
 
 .iconsheader {
@@ -16,219 +17,259 @@
 }
 
 .logo {
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  font-family: 'Calibri';
-  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+}
+
+.logo:hover {
+  color: rgb(255, 255, 255);
 }
 
 .links-header {
   margin: 0px 20px;
-  font-weight: 500;
+  font-weight: 600;
+}
+
+.links-color {
+  color: white;
+  text-decoration: none;
+}
+
+.links-color:hover {
+  color: grey;
+}
+
+.active {
+  color: grey;
 }
 
 .image-car {
-  height: 500px;
+  height: 350px;
   object-fit: cover;
 }
 
 .text-car {
+  text-align: center;
   top: 2cm;
-  text-align: left;
-  line-height: 3cm;
 }
 
 .text-car-2 {
   top: 2cm;
-  line-height: 3cm;
+  text-align: left;
+}
+
+.info1-slider {
+  font-family: 'Russo One', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.info2-slider {
+  margin-top: 30px;
+  font-family: 'Russo One', sans-serif;
+  font-size: 15px;
+
+}
+
+.but-slid {
+  padding: 10px 50px;
+  margin: 10px;
+  font-family: 'Russo One', sans-serif;
+  background-color: #101453;
+  border-color: #ffffff2f;
 }
 
 .section2 {
-  width: 100%;
-  height: 360px;
-  background-color: rgb(255, 255, 255);
+  height: 170px;
+  background-color: rgb(226, 225, 225);
+}
+
+.call-sec2 {
+  margin-top: 40px;
+  color: rgb(0, 79, 182);
+}
+
+.tipe-call {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Russo One', sans-serif;
+}
+
+.tipe-call-2 {
+  font-size: 17px;
+}
+
+.line-s2 {
   text-align: center;
-}
-
-.text1 {
-  position: relative;
-  top: 1.5cm;
-  font-family: 'Yu Gothic UI Semibold';
-  font-size: 28px;
-}
-
-.text2 {
-  position: relative;
-  top: 2.5cm;
-  font-family: 'Sitka Display';
-  font-size: 18px;
-}
-
-.butom1 {
-  position: relative;
-  right: 0.5cm;
-  top: 4.5cm;
-  padding: 10px 30px;
-  background-color: rgb(16, 14, 143);
-  display: inline;
-  border-radius: 0.1cm;
-  text-decoration: none;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-}
-
-.butom2 {
-  position: relative;
-  left: 0.5cm;
-  top: 4.5cm;
-  padding: 10px 30px;
-  background-color: rgb(16, 14, 143);
-  display: inline;
-  border-radius: 0.1cm;
-  text-decoration: none;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
+  border-top: 3px solid black;
+  height: 2px;
+  max-width: 300px;
+  margin: 20px auto 0 auto;
 }
 
 .section3 {
   width: 100%;
-  height: 400px;
-  background-color: rgb(0, 0, 0);
+  height: 420px;
+  background-color: rgb(255, 255, 255);
 }
 
 .box {
-  width: 300px;
-  height: 250px;
-  margin: 5px;
+  width: 90%;
+  height: 300px;
   margin-top: 60px;
-  border-radius: 0.2cm;
   object-fit: cover;
+  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+}
+
+.bloq-s3 {
+  display: block;
+  background-color: rgb(0, 79, 182);
+  position: relative;
+  padding: 10px;
+  width: 70%;
+  margin-right: 60px;
+  bottom: 35px;
+  border-radius: 0.2cm;
+  color: aliceblue;
+  font-family: 'Russo One', sans-serif;
+  text-decoration: none;
 }
 
 .section4 {
   width: 100%;
-  height: 380PX;
-  background-color: rgb(255, 255, 255);
+  height: 350px;
+  background-color: rgb(226, 225, 225);
 }
 
 .tit1 {
-  margin-top: 1.5cm;
+  margin-top: 75px;
   font-size: 25px;
-  font-family: 'Arial Black';
+  font-family: 'Russo One', sans-serif;
+  text-align: left;
 }
 
 .tit2 {
-  margin-top: 1.9cm;
-  font-size: 20px;
-  margin: 10px;
+  margin-top: 40px;
+  font-size: 17px;
+  text-align: left;
+  font-family: 'Russo One', sans-serif;
 }
 
 .tit3 {
-  margin-top: 3.5cm;
-  font-size: 20px;
-  margin: 10px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: 'Russo One', sans-serif;
+  text-align: left;
 }
 
 .cod-QR {
-  margin-top: 40px;
-  width: 200px;
+  margin-top: 50px;
+  width: 150px;
+  padding: 5px;
+  background-color: rgb(94, 94, 94);
 }
 
 .icons-tarj {
-  width: 600px;
-  height: 100px;
+  margin-top: 10px;
+  width: 100%;
+  height: 90px;
+  display: block;
 }
 
 .section5 {
-  background-color: rgb(0, 0, 0);
-  height: 10.5cm;
+  background-color: rgb(255, 255, 255);
+  height: 250px;
   text-align: center;
 }
 
-.icons1 {
-  width: 50px;
-  padding: 10px;
-  margin-top: 1cm;
-  margin-right: 0.5cm;
-  background-color: white;
-  border-radius: 1cm;
-}
-
-.icons2 {
-  width: 50px;
-  padding: 10px;
-  margin-top: 1cm;
-  margin-left: 0.5cm;
-  background-color: white;
-  border-radius: 1cm;
-}
-
 .marks {
-  margin-top: 1.8cm;
-  color: rgb(255, 255, 255);
+  position: relative;
+  top: 25px;
+  color: rgb(0, 0, 0);
   font-size: 30px;
+  font-family: 'Russo One', sans-serif;
 }
 
 .sectionfooter {
-  background-color: rgb(75, 75, 75);
+  background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
   height: 350px;
 }
 
-.icons-footer-queries {
-  position: relative;
-  top: 120px;
+.b-tittle-div {
+  background-color: rgb(0, 79, 182);
+  margin: 30px 0px;
 }
 
-.icons1footer {
-  width: 60px;
-}
-
-.icons2footer {
-  width: 60px;
-}
-
-.information {
-  background-color: rgb(0, 0, 0);
-  margin-top: 25px;
-  text-align: left;
-  height: 300px;
-}
-
-.navfooter {
-  margin-top: 90px;
-  text-align: left;
+.b-tittle {
+  font-family: 'Russo One', sans-serif;
+  font-size: 19px;
+  color: white;
   margin-left: 20px;
+  text-align: left;
 }
 
-.menu-footer {
-  list-style-type: none;
+.in-foot {
+  text-align: left;
+  color: white;
 }
 
 .menu-f {
+  display: block;
   text-decoration: none;
-  font-family: 'Microsoft PhagsPa';
+  text-align: left;
+  font-family: 'Russo One', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: lighter;
   color: rgb(255, 255, 255);
 }
 
 .googlemaps {
   position: relative;
-  top: 1.3cm;
-  height: 250px;
-  width: 300px;
-  right: 0.9cm;
+  height: 200px;
+  width: 100%;
 }
 
-/*FIN DE PAGINA DE INICIO*/
+/*----------     PAGINA DE OFERTAS     ----------*/
 
+.section-car {
+  height: 100px;
+  background-color: #636363;
+}
 
+.d-car-s {
+  text-align: right;
+  position: relative;
+  top: 35px;
+}
 
-/*FIN DE PAGINA DE OFERTAS*/
+.buttom-car-s {
+  background-color: #c0c0c0;
+  text-decoration: none;
+  padding: 10px 50px;
+  box-shadow: 0px 0px 0px 2px rgb(10, 10, 10);
+  font-size: 18px;
+}
 
-.serv-seccion {
+.section-prod {
+  height: 650px;
+}
+
+.sec-oferts {
+  margin-top: 30px;
   width: 100%;
-  border: solid 4px blue;
+  text-align: left;
+}
+
+.div-cards {
+  padding: 20px;
+}
+
+/*----------     PAGINA DE SERVICIOS TECNICOS     ----------*/
+
+.serv-section {
+  width: 100%;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -241,94 +282,55 @@
 }
 
 .info-serv {
-  background-color: #11e95b;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   grid-area: info-grid;
   text-align: center;
 }
 
-.titulo-serv {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.tittle-serv {
+  font-family: 'Russo One', sans-serif;
   font-size: 28px;
   margin-top: 30px;
+  color: white;
 }
 
-.texto-serv {
+.text-serv {
   line-height: 30px;
   margin: 10%;
   margin-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
 }
 
-.cajas-serv {
-  background-color: #ffd414;
+.caj-serv {
+  background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
   grid-area: caja;
-  display: flex;
-  justify-content: space-around;
+  padding: 20px;
 }
 
-.bloque-serv1 {
-  background-color: #11e95b;
-  margin: 20px;
-  text-align: center;
-  position: relative;
-  left: 30px;
-}
-
-.bloque-serv2 {
-  background-color: #11e95b;
-  margin: 20px;
-  text-align: center;
-}
-
-.bloque-serv3 {
-  background-color: #11e95b;
-  margin: 20px;
-  text-align: center;
-  position: relative;
-  right: 30px;
-}
-
-.img-serv {
-  width: 350px;
-  height: 300px;
-  object-fit: cover;
-  margin: 30px;
-}
-
-.titulo-bloq {
-  position: relative;
-  bottom: 2cm;
-  background-color: blanchedalmond;
-  text-align: center;
-  padding: 10px;
-  border-radius: 0.1cm;
-}
-
-.titulo-bloq:hover {
-  animation: cambioColor 4s infinite;
-}
-
-@keyframes cambioColor {
-
-  0% {
-    background-color: #000;
-
-  }
+.boxes-cent {
+  margin-top: 70px;
 }
 
 .info-serv-2 {
-  background-color: aqua;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   grid-area: info-grid2;
   text-align: center;
 }
 
-.cajas-serv-2 {
-  background-color: #ffd414;
+.caj-serv-2 {
+  background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
   grid-area: caja2;
   display: flex;
   justify-content: space-around;
 }
 
-/*FIN DE PAGINA DE SERVICIO TECNICO*/
+/*----------     PAGINA DE ATENCION AL CLIENTE     ----------*/
 
 .at-seccion {
   width: 100%;
@@ -346,7 +348,7 @@
   text-align: center;
 }
 
-/*FIN DE PAGINA DE ATENCION AL CLIENTE*/
+/*----------     PAGINA DE REGISTRO     ----------*/
 
 .form-register {
   width: 1000px;
@@ -388,113 +390,6 @@
   color: white;
 }
 
-/*FIN DE PAGINA DE REGISTRO*/
+/*----------     MEDIA QUERIES CELULAR     ----------*/
 
-@media only screen and (max-width:450px) {
-  .logo {
-    visibility: hidden;
-  }
-
-  .image-car {
-    height: 250px;
-  }
-
-  .section2 {
-    height: 380px;
-  }
-
-  .text1 {
-    padding: 10px;
-    top: 1cm;
-  }
-
-  .text2 {
-    padding: 40px;
-    top: 0.5cm;
-  }
-
-  .butom1 {
-    top: 0.5cm;
-  }
-
-  .butom2 {
-    top: 0.5cm;
-  }
-
-  .section3 {
-    height: 1100px;
-  }
-
-  .box {
-    margin: 40px;
-  }
-
-  .section4 {
-    height: 630px;
-  }
-
-  .marks {
-    font-size: 25px;
-  }
-
-  .icons-tarj {
-    width: 400px;
-    height: 80px;
-  }
-
-  .sectionfooter {
-    height: 1000px;
-  }
-
-  .footer-media-queries {
-    display: block;
-  }
-
-  .icons-footer-queries {
-    display: flex;
-    top: 14px;
-  }
-
-  .icons1footer {
-    width: 20%;
-  }
-
-  .icons2footer {
-    width: 20%;
-  }
-
-  /*FIN DE PAGINA DE INICIO*/
-
-  .serv-seccion {
-    width: 100%;
-    border: solid 4px blue;
-  
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 960px 1250px 330px 1250px;
-    grid-template-areas:
-      "info-grid info-grid info-grid"
-      "caja caja caja"
-      "info-grid2 info-grid2 info-grid2"
-      "caja2 caja2 caja2";
-   
-  }
-
-  .cajas-serv {
-    display: block;
-  }
-
-  .bloque-serv1 {
-    left: 0px;
-  }
-  
-  .bloque-serv3 {
-    right: 0px;
-  }
-
-  .cajas-serv-2 {
-    display: block;
-  }
- 
-
-}
+@media only screen and (max-width:375px) {}
