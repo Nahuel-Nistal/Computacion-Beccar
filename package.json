@@ -1,0 +1,23 @@
+{
+  "name": "mi-proyecto-nn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nahuel-Nistal/Computacion-Beccar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nahuel-Nistal/Computacion-Beccar/issues"
+  },
+  "homepage": "https://github.com/Nahuel-Nistal/Computacion-Beccar#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
