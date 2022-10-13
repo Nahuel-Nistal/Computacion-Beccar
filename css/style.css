@@ -1,8 +1,203 @@
-/* sass */
+/*----------     Estilos Generales del Proyecto     ----------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/*----------     Header     ----------*/
+header {
+  background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
+}
+header img {
+  width: 50px;
+  margin: 10px;
+  padding: 5px;
+}
+header .logo {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "Russo One", sans-serif;
+}
+header .logo:hover {
+  color: rgb(255, 255, 255);
+}
+header li {
+  margin: 0px 20px;
+  font-weight: 600;
+}
+header li a {
+  color: white;
+  text-decoration: none;
+}
+header li a:hover {
+  color: grey;
+}
+
+/*----------     Footer     ----------*/
+footer {
+  background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
+  height: 350px;
+}
+footer .tittle-div {
+  background-color: rgb(0, 79, 182);
+  margin: 30px 0px;
+}
+footer .tittle-div p {
+  font-family: "Russo One", sans-serif;
+  font-size: 19px;
+  color: white;
+  margin-left: 20px;
+  text-align: left;
+}
+footer p {
+  text-align: left;
+  color: white;
+}
+footer a {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-family: "Russo One", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
+footer iframe {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+/*----------     Index     ----------*/
+.image-car {
+  height: 350px;
+  object-fit: cover;
+}
+.image-car .text-car {
+  text-align: center;
+  top: 2cm;
+}
+.image-car .text-car-2 {
+  top: 2cm;
+  text-align: left;
+}
+.image-car .info1-slider {
+  font-family: "Russo One", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.image-car .info2-slider {
+  margin-top: 30px;
+  font-family: "Russo One", sans-serif;
+  font-size: 15px;
+}
+.image-car .but-slid {
+  padding: 10px 50px;
+  margin: 10px;
+  font-family: "Russo One", sans-serif;
+  background-color: #101453;
+  border-color: rgba(255, 255, 255, 0.1843137255);
+}
+
+.section2 {
+  height: 170px;
+  background-color: rgb(226, 225, 225);
+}
+.section2 .call-sec2 {
+  margin-top: 40px;
+  color: rgb(0, 79, 182);
+}
+.section2 .call-sec2 .tipe-call {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Russo One", sans-serif;
+}
+.section2 .call-sec2 .tipe-call-2 {
+  font-size: 17px;
+}
+.section2 .call-sec2 .line-s2 {
+  text-align: center;
+  border-top: 3px solid black;
+  height: 2px;
+  max-width: 300px;
+  margin: 20px auto 0 auto;
+}
+
+.section3 {
+  width: 100%;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+}
+.section3 .box {
+  width: 90%;
+  height: 300px;
+  margin-top: 60px;
+  object-fit: cover;
+  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+}
+.section3 .bloq-s3 {
+  display: block;
+  background-color: rgb(0, 79, 182);
+  position: relative;
+  padding: 10px;
+  width: 70%;
+  margin-right: 60px;
+  bottom: 35px;
+  border-radius: 0.2cm;
+  color: aliceblue;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+}
+
+.section4 {
+  width: 100%;
+  height: 350px;
+  background-color: rgb(226, 225, 225);
+}
+.section4 .tit1 {
+  margin-top: 75px;
+  font-size: 25px;
+  font-family: "Russo One", sans-serif;
+  text-align: left;
+}
+.section4 .tit2 {
+  margin-top: 40px;
+  font-size: 17px;
+  text-align: left;
+  font-family: "Russo One", sans-serif;
+}
+.section4 .tit3 {
+  margin-top: 20px;
+  font-size: 17px;
+  font-family: "Russo One", sans-serif;
+  text-align: left;
+}
+.section4 .cod-QR {
+  margin-top: 50px;
+  width: 150px;
+  padding: 5px;
+  background-color: rgb(94, 94, 94);
+}
+.section4 .icons-tarj {
+  margin-top: 10px;
+  width: 100%;
+  height: 90px;
+  display: block;
+}
+
+.section5 {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  text-align: center;
+}
+.section5 .marks {
+  position: relative;
+  top: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Russo One", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

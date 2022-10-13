@@ -40,10 +40,6 @@
   color: grey;
 }
 
-.active {
-  color: grey;
-}
-
 .image-car {
   height: 350px;
   object-fit: cover;
@@ -197,12 +193,12 @@
   height: 350px;
 }
 
-.b-tittle-div {
+.tittle-div {
   background-color: rgb(0, 79, 182);
   margin: 30px 0px;
 }
 
-.b-tittle {
+.f-tittle {
   font-family: 'Russo One', sans-serif;
   font-size: 19px;
   color: white;

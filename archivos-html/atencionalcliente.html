@@ -5,51 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="archivos-css/styles.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Atencion al cliente</title>
+    <link rel="stylesheet" href="../archivos-css/backup.css">
+    <title>Computacion Beccar</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg header-container">
-            <div class="container-fluid">
-                <div>
-                    <img class="iconsheader" src="imagenes/logoh.png" alt="icono de instagram">
-                </div>
-                <a class="navbar-brand logo" href="#">COMPUTACION BECCAR</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item links-header">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item links-header">
-                            <a class="nav-link" href="#">Ofertas</a>
-                        </li>
-                        <li class="nav-item links-header">
-                            <a class="nav-link" href="#">Tienda</a>
-                        </li>
-                        <li class="nav-item dropdown links-header">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Mi Cuenta
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Registro</a></li>
-                                <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+    <header class="header-container">
+        <div class="container text-center ">
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg ">
+                        <div class="container-fluid">
+                            <div>
+                                <img class="iconsheader" src="../imagenes/logoh.png" alt="icono de instagram">
+                            </div>
+                            <a class="navbar-brand logo" href="index.html">COMPUTACION BECCAR</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav menu-queries">
+                                    <li class="nav-item links-header">
+                                        <a class="links-color" aria-current="page" href="../index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item links-header">
+                                        <a class="links-color" href="../archivos-html/ofertas.html">Ofertas</a>
+                                    </li>
+                                    <li class="nav-item links-header">
+                                        <a class="links-color"
+                                            href="https://www.gestionresellers.com.ar/login">Tienda</a>
+                                    </li>
+                                    <li class="nav-item dropdown links-header">
+                                        <a class="dropdown-toggle links-color" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Mi Cuenta
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="../archivos-html/registro.html">Registro</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
 
     <section class="at-seccion">
@@ -89,54 +100,43 @@
         <a href=""></a>
     </section>
 
-    <footer class="seccionfooter">
-        <div>
-            <div>
-                <img class="icons1footer" src="imagenes/instagramicon.png" alt="icono de instagram">
+    <footer class="sectionfooter">
+        <div class="container text-center">
+            <div class="row footer-media-queries">
+                <div class="col">
+                    <div class="tittle-div">
+                        <p class="f-tittle">Contacto</p>
+                    </div>
+                    <p class="in-foot">E-mail: info@cbonline.com.ar</p>
+                    <p class="in-foot">Teléfono: (011) 4742-8880</p>
+                    <p class="in-foot"> Whatsapp: +54 9 11-2540-1473</p>
+                    <p class="in-foot">Horario de Atención: Lunes a viernes de 9:30 a 16:30 hs. Sábados de 10 a 13 hs.
+                    </p>
+                </div>
+                <div class="col">
+                    <div class="tittle-div">
+                        <p class="f-tittle">Navegacion</p>
+                    </div>
+                    <a class="menu-f" href="index.html">Inicio</a>
+                    <a class="menu-f" href="pages/ofertas.html">Ofertas</a>
+                    <a class="menu-f" href="https://www.gestionresellers.com.ar/login">Tienda</a>
+                    <a class="menu-f" href="https://www.gestionresellers.com.ar/login">Servicios tecnicos</a>
+                    <a class="menu-f" href="pages/mi-cuenta.html">Mi Cuenta</a>
+                    <a class="menu-f" href="pages/registro.html">Registro</a>
+                    <a class="menu-f" href="pages/iniciar-sesion.html">Iniciar sesion</a>
+                </div>
+                <div class="col">
+                    <div class="tittle-div">
+                        <p class="f-tittle">Ubicacion</p>
+                    </div>
+                    <div>
+                        <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13157.039050277344!2d-58.512291!3d-34.470934!3m2!1i1024!2i768!4f13.1
+                            !3m3!1m2!1s0x95bcb0346ffdabe5%3A0xf68605a9bbfedeec!2sRivadavia%20260%2C%20B1642CEF%20San%20Isidro%2C%20Provincia%20de%20Buenos%20Aires%
+                            2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1662593489551!5m2!1ses-419!2sus" style="border:0;"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
             </div>
-            <div>
-                <img class="icons2footer" src="imagenes/facebookicon.png" alt="icono de facebook">
-            </div>
-        </div>
-        <div class="informacion">
-            <div>
-                <div>
-                    <h2 class="textfooter">Contacto</h2>
-                </div>
-                <div>
-                    <h4 class="textfooter">Direccion</h4>
-                    <h4 class="textfooter">Rivadavia 260, San Isidro</h4>
-                </div>
-                <div>
-                    <h4 class="textfooter">Whatsapp</h4>
-                    <h4 class="textfooter">+54 11 2540 - 1473</h4>
-                </div>
-                <div>
-                    <h4 class="textfooter">Telefono</h4>
-                    <h4 class="textfooter">4742 - 8880</h4>
-                </div>
-                <div>
-                    <h4 class="textfooter">Email</h4>
-                    <h4 class="textfooter">info@cbonline.com.ar</h4>
-                </div>
-            </div>
-        </div>
-        <nav class="navfooter">
-            <ul class="menu-footer">
-                <li><a class="menu-f" href="index.html">Inicio</a></li>
-                <li><a class="menu-f" href="pages/ofertas.html">Ofertas</a></li>
-                <li><a class="menu-f" href="https://www.gestionresellers.com.ar/login">Tienda</a></li>
-                <li><a class="menu-f" href="https://www.gestionresellers.com.ar/login">Servicios tecnicos</a></li>
-                <li><a class="menu-f" href="pages/mi-cuenta.html">Mi Cuenta</a></li>
-                <li><a class="menu-f" href="pages/registro.html">Registro</a></li>
-                <li><a class="menu-f" href="pages/iniciar-sesion.html">Iniciar sesion</a></li>
-            </ul>
-        </nav>
-        <div>
-            <iframe class="googlemaps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13157.039050277344!2d-58.512291!3d-34.470934!3m2!1i1024!2i768!4f13.1
-                !3m3!1m2!1s0x95bcb0346ffdabe5%3A0xf68605a9bbfedeec!2sRivadavia%20260%2C%20B1642CEF%20San%20Isidro%2C%20Provincia%20de%20Buenos%20Aires%
-                2C%20Argentina!5e0!3m2!1ses-419!2sus!4v1662593489551!5m2!1ses-419!2sus" style="border:0;"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </footer>
 
