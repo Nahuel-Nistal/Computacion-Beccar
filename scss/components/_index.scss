@@ -1,38 +1,50 @@
 /*----------     Index     ----------*/
 
-.image-car {
+.section1 {
     height: 350px;
-    object-fit: cover;
 
-    .text-car {
-        text-align: center;
-        top: 2cm;
+    .image-car {
+        height: 350px;
+        object-fit: cover;
+
+        .text-car {
+            text-align: center;
+            top: 2cm;
+        }
+
+        .text-car-2 {
+            top: 2cm;
+            text-align: left;
+        }
+
+        .info1-slider {
+            font-family: 'Russo One', sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
+
+        .info2-slider {
+            margin-top: 30px;
+            font-family: 'Russo One', sans-serif;
+            font-size: 15px;
+        }
+
+        .but-slid {
+            padding: 10px 50px;
+            margin: 10px;
+            font-family: 'Russo One', sans-serif;
+            background-color: rgb(0, 28, 112);
+            border-color: #ffffff2f;
+        }
+
+        @media screen and (max-width: 450px) {
+            height: 250px;
+        }
     }
 
-    .text-car-2 {
-        top: 2cm;
-        text-align: left;
-    }
-
-    .info1-slider {
-        font-family: 'Russo One', sans-serif;
-        font-size: 25px;
-        font-weight: 600;
-        letter-spacing: 2px;
-    }
-
-    .info2-slider {
-        margin-top: 30px;
-        font-family: 'Russo One', sans-serif;
-        font-size: 15px;
-    }
-
-    .but-slid {
-        padding: 10px 50px;
-        margin: 10px;
-        font-family: 'Russo One', sans-serif;
-        background-color: #101453;
-        border-color: #ffffff2f;
+    @media screen and (max-width: 450px) {
+        height: 237px;
     }
 }
 
@@ -40,55 +52,95 @@
     height: 170px;
     background-color: rgb(226, 225, 225);
 
-    .call-sec2 {
-        margin-top: 40px;
-        color: rgb(0, 79, 182);
+    .row2-queries {
 
-        .tipe-call {
-            font-size: 22px;
-            font-weight: 600;
-            font-family: 'Russo One', sans-serif;
+        .call-sec2 {
+            margin-top: 40px;
+            color: rgb(0, 12, 112);
+
+            .ico-s {
+                height: 30px;
+                text-align: left;
+                margin-right: 10px;
+
+                @media screen and (max-width: 450px) {
+                    margin-top: 20px;
+                }
+            }
+
+            .tipe-call {
+                font-size: 22px;
+                font-weight: 600;
+                font-family: 'Russo One', sans-serif;
+
+                @media screen and (max-width: 450px) {
+                    margin-top: 20px;
+                }
+            }
+
+            .tipe-call-2 {
+                font-size: 17px;
+                color: rgb(0, 12, 112);
+            }
+
+            .line-s2 {
+                text-align: center;
+                border-top: 3px solid rgb(0, 12, 112);
+                height: 2px;
+                max-width: 300px;
+                margin: 20px auto 0 auto;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin-top: 0px;
+            }
         }
 
-        .tipe-call-2 {
-            font-size: 17px;
+        @media screen and (max-width: 450px) {
+            display: block;
         }
+    }
 
-        .line-s2 {
-            text-align: center;
-            border-top: 3px solid black;
-            height: 2px;
-            max-width: 300px;
-            margin: 20px auto 0 auto;
-        }
+    @media screen and (max-width: 450px) {
+        height: 380px;
     }
 }
 
 .section3 {
     width: 100%;
     height: 420px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 12, 112);
 
-    .box {
-        width: 90%;
-        height: 300px;
-        margin-top: 60px;
-        object-fit: cover;
-        box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+    .row3-queries {
+        .box {
+            width: 90%;
+            height: 300px;
+            margin-top: 60px;
+            object-fit: cover;
+            box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+        }
+
+        .bloq-s3 {
+            display: block;
+            background-color: rgb(92, 83, 83);
+            position: relative;
+            padding: 10px;
+            width: 70%;
+            margin-right: 60px;
+            bottom: 35px;
+            border-radius: 0.2cm;
+            color: aliceblue;
+            font-family: 'Russo One', sans-serif;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 450px) {
+            display: inline-block;
+        }
     }
 
-    .bloq-s3 {
-        display: block;
-        background-color: rgb(0, 79, 182);
-        position: relative;
-        padding: 10px;
-        width: 70%;
-        margin-right: 60px;
-        bottom: 35px;
-        border-radius: 0.2cm;
-        color: aliceblue;
-        font-family: 'Russo One', sans-serif;
-        text-decoration: none;
+    @media screen and (max-width: 450px) {
+        height: 1200px;
     }
 }
 

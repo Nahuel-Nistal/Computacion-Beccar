@@ -1,0 +1,76 @@
+/*----------     Servicios tecnicos     ----------*/
+
+.serv-section {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 420px 400px 180px 400px;
+    grid-template-areas:
+        "info-grid info-grid info-grid"
+        "caja caja caja"
+        "info-grid2 info-grid2 info-grid2"
+        "caja2 caja2 caja2";
+
+    .info-serv {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        grid-area: info-grid;
+        text-align: center;
+
+        .tittle-serv {
+            font-family: 'Russo One', sans-serif;
+            font-size: 28px;
+            margin-top: 30px;
+            color: white;
+        }
+
+        .text-serv {
+            line-height: 30px;
+            margin: 10%;
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+
+    .caj-serv {
+        background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
+        grid-area: caja;
+        padding: 20px;
+
+        .boxes-cent {
+            margin-top: 70px;
+        }
+    }
+
+    .info-serv-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        grid-area: info-grid2;
+        text-align: center;
+
+        .text-serv {
+            line-height: 30px;
+            margin: 10%;
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 600;
+            color: white;
+        }
+    }
+
+    .caj-serv-2 {
+        background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
+        grid-area: caja2;
+        display: flex;
+        justify-content: space-around;
+
+        .boxes-cent {
+            margin-top: 70px;
+        }
+    }
+}

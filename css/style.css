@@ -19,6 +19,11 @@ header .logo {
   font-size: 16px;
   font-family: "Russo One", sans-serif;
 }
+@media screen and (max-width: 450px) {
+  header .logo {
+    visibility: hidden;
+  }
+}
 header .logo:hover {
   color: rgb(255, 255, 255);
 }
@@ -39,22 +44,27 @@ footer {
   background: linear-gradient(rgb(0, 0, 15), rgb(7, 1, 83));
   height: 350px;
 }
-footer .tittle-div {
+footer .footer-media-queries .tittle-div {
   background-color: rgb(0, 79, 182);
   margin: 30px 0px;
 }
-footer .tittle-div p {
+footer .footer-media-queries .tittle-div p {
   font-family: "Russo One", sans-serif;
   font-size: 19px;
   color: white;
   margin-left: 20px;
   text-align: left;
 }
-footer p {
+footer .footer-media-queries p {
   text-align: left;
   color: white;
 }
-footer a {
+@media screen and (max-width: 450px) {
+  footer .footer-media-queries p {
+    margin-left: 5px;
+  }
+}
+footer .footer-media-queries a {
   display: block;
   text-decoration: none;
   text-align: left;
@@ -63,83 +73,142 @@ footer a {
   font-weight: lighter;
   color: rgb(255, 255, 255);
 }
-footer iframe {
+@media screen and (max-width: 450px) {
+  footer .footer-media-queries a {
+    margin-left: 5px;
+  }
+}
+footer .footer-media-queries iframe {
   position: relative;
   height: 200px;
   width: 100%;
 }
+@media screen and (max-width: 450px) {
+  footer .footer-media-queries {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 450px) {
+  footer {
+    height: 820px;
+  }
+}
 
 /*----------     Index     ----------*/
-.image-car {
+.section1 {
+  height: 350px;
+}
+.section1 .image-car {
   height: 350px;
   object-fit: cover;
 }
-.image-car .text-car {
+.section1 .image-car .text-car {
   text-align: center;
   top: 2cm;
 }
-.image-car .text-car-2 {
+.section1 .image-car .text-car-2 {
   top: 2cm;
   text-align: left;
 }
-.image-car .info1-slider {
+.section1 .image-car .info1-slider {
   font-family: "Russo One", sans-serif;
   font-size: 25px;
   font-weight: 600;
   letter-spacing: 2px;
 }
-.image-car .info2-slider {
+.section1 .image-car .info2-slider {
   margin-top: 30px;
   font-family: "Russo One", sans-serif;
   font-size: 15px;
 }
-.image-car .but-slid {
+.section1 .image-car .but-slid {
   padding: 10px 50px;
   margin: 10px;
   font-family: "Russo One", sans-serif;
-  background-color: #101453;
+  background-color: rgb(0, 28, 112);
   border-color: rgba(255, 255, 255, 0.1843137255);
+}
+@media screen and (max-width: 450px) {
+  .section1 .image-car {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section1 {
+    height: 237px;
+  }
 }
 
 .section2 {
   height: 170px;
   background-color: rgb(226, 225, 225);
 }
-.section2 .call-sec2 {
+.section2 .row2-queries .call-sec2 {
   margin-top: 40px;
-  color: rgb(0, 79, 182);
+  color: rgb(0, 12, 112);
 }
-.section2 .call-sec2 .tipe-call {
+.section2 .row2-queries .call-sec2 .ico-s {
+  height: 30px;
+  text-align: left;
+  margin-right: 10px;
+}
+@media screen and (max-width: 450px) {
+  .section2 .row2-queries .call-sec2 .ico-s {
+    margin-top: 20px;
+  }
+}
+.section2 .row2-queries .call-sec2 .tipe-call {
   font-size: 22px;
   font-weight: 600;
   font-family: "Russo One", sans-serif;
 }
-.section2 .call-sec2 .tipe-call-2 {
-  font-size: 17px;
+@media screen and (max-width: 450px) {
+  .section2 .row2-queries .call-sec2 .tipe-call {
+    margin-top: 20px;
+  }
 }
-.section2 .call-sec2 .line-s2 {
+.section2 .row2-queries .call-sec2 .tipe-call-2 {
+  font-size: 17px;
+  color: rgb(0, 12, 112);
+}
+.section2 .row2-queries .call-sec2 .line-s2 {
   text-align: center;
-  border-top: 3px solid black;
+  border-top: 3px solid rgb(0, 12, 112);
   height: 2px;
   max-width: 300px;
   margin: 20px auto 0 auto;
+}
+@media screen and (max-width: 450px) {
+  .section2 .row2-queries .call-sec2 {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section2 .row2-queries {
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section2 {
+    height: 380px;
+  }
 }
 
 .section3 {
   width: 100%;
   height: 420px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 12, 112);
 }
-.section3 .box {
+.section3 .row3-queries .box {
   width: 90%;
   height: 300px;
   margin-top: 60px;
   object-fit: cover;
   box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
 }
-.section3 .bloq-s3 {
+.section3 .row3-queries .bloq-s3 {
   display: block;
-  background-color: rgb(0, 79, 182);
+  background-color: rgb(92, 83, 83);
   position: relative;
   padding: 10px;
   width: 70%;
@@ -149,6 +218,16 @@ footer iframe {
   color: aliceblue;
   font-family: "Russo One", sans-serif;
   text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+  .section3 .row3-queries {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .section3 {
+    height: 1200px;
+  }
 }
 
 .section4 {
@@ -198,6 +277,153 @@ footer iframe {
   color: rgb(0, 0, 0);
   font-size: 30px;
   font-family: "Russo One", sans-serif;
+}
+
+/*----------     Servicios tecnicos     ----------*/
+.serv-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 420px 400px 180px 400px;
+  grid-template-areas: "info-grid info-grid info-grid" "caja caja caja" "info-grid2 info-grid2 info-grid2" "caja2 caja2 caja2";
+}
+.serv-section .info-serv {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  grid-area: info-grid;
+  text-align: center;
+}
+.serv-section .info-serv .tittle-serv {
+  font-family: "Russo One", sans-serif;
+  font-size: 28px;
+  margin-top: 30px;
+  color: white;
+}
+.serv-section .info-serv .text-serv {
+  line-height: 30px;
+  margin: 10%;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.serv-section .caj-serv {
+  background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
+  grid-area: caja;
+  padding: 20px;
+}
+.serv-section .caj-serv .boxes-cent {
+  margin-top: 70px;
+}
+.serv-section .info-serv-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  grid-area: info-grid2;
+  text-align: center;
+}
+.serv-section .info-serv-2 .text-serv {
+  line-height: 30px;
+  margin: 10%;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.serv-section .caj-serv-2 {
+  background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
+  grid-area: caja2;
+  display: flex;
+  justify-content: space-around;
+}
+.serv-section .caj-serv-2 .boxes-cent {
+  margin-top: 70px;
+}
+
+/*----------     Ofertas     ----------*/
+.section-car {
+  height: 100px;
+  background-color: #636363;
+}
+.section-car .d-car-s {
+  text-align: right;
+  position: relative;
+  top: 35px;
+}
+.section-car .d-car-s .buttom-car-s {
+  background-color: #c0c0c0;
+  text-decoration: none;
+  padding: 10px 50px;
+  box-shadow: 0px 0px 0px 2px rgb(10, 10, 10);
+  font-size: 18px;
+}
+
+.section-prod {
+  height: 650px;
+}
+.section-prod .div-cards {
+  padding: 20px;
+}
+.section-prod .div-cards .sec-oferts {
+  margin-top: 30px;
+  width: 100%;
+  text-align: left;
+}
+
+/*----------     Registro     ----------*/
+.form-register {
+  width: 1000px;
+  background-color: rgb(5, 0, 49);
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 4px;
+  font-family: "Calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+.form-register h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}
+.form-register .controls {
+  width: 40%;
+  background-color: rgb(5, 0, 59);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border: 1px solid blue;
+  font-family: "Calibri";
+  font-size: 15px;
+}
+.form-register .botons {
+  width: 40%;
+  background-color: rgb(24, 0, 133);
+  border: 1px solid rgb(192, 192, 192);
+  padding: 12px;
+  margin-left: 60px;
+  color: white;
+}
+
+/*----------     Atencion al cliente     ----------*/
+.at-seccion {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.at-seccion2 {
+  padding: 100px;
+  width: 100%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
