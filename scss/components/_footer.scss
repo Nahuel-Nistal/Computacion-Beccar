@@ -46,6 +46,10 @@ footer {
             position: relative;
             height: 200px;
             width: 100%;
+
+            @media screen and (max-width: 450px) {
+                margin-bottom: 20px;
+            }
         }
 
         @media screen and (max-width: 450px) {
@@ -54,6 +58,6 @@ footer {
     }
 
     @media screen and (max-width: 450px) {
-        height: 820px;
+        height: auto;
     }
 }
