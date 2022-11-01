@@ -101,17 +101,20 @@ footer .footer-media-queries iframe {
 
 /*----------     Index     ----------*/
 .section1 {
-  height: 370px;
+  height: 450px;
 }
 .section1 .image-car {
-  height: 370px;
+  height: 450px;
+}
+.section1 .image-car img {
+  filter: brightness(40%);
 }
 .section1 .image-car .text-car {
   text-align: center;
-  top: 2cm;
+  top: 2.5cm;
 }
 .section1 .image-car .text-car-2 {
-  top: 2cm;
+  top: 2.8cm;
   text-align: left;
 }
 .section1 .image-car .info1-slider {
@@ -144,18 +147,16 @@ footer .footer-media-queries iframe {
 }
 
 .section2 {
-  height: 170px;
-  background-color: rgb(226, 225, 225);
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  text-align: center;
 }
-@media screen and (max-width: 450px) {
-  .section2 .row2-queries {
-    display: block;
-  }
-}
-@media screen and (max-width: 450px) {
-  .section2 {
-    height: 380px;
-  }
+.section2 .marks {
+  position: relative;
+  top: 25px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Russo One", sans-serif;
 }
 
 .section3 {
@@ -270,19 +271,6 @@ footer .footer-media-queries iframe {
   .section4 {
     height: auto;
   }
-}
-
-.section5 {
-  background-color: rgb(255, 255, 255);
-  height: 250px;
-  text-align: center;
-}
-.section5 .marks {
-  position: relative;
-  top: 25px;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
-  font-family: "Russo One", sans-serif;
 }
 
 /*----------     Servicios tecnicos     ----------*/

@@ -1,18 +1,22 @@
 /*----------     Index     ----------*/
 
 .section1 {
-    height: 370px;
+    height: 450px;
 
     .image-car {
-        height: 370px;
+        height: 450px;
+
+        img {
+            filter: brightness(40%);
+        }
 
         .text-car {
             text-align: center;
-            top: 2cm;
+            top: 2.5cm;
         }
 
         .text-car-2 {
-            top: 2cm;
+            top: 2.8cm;
             text-align: left;
         }
 
@@ -48,20 +52,16 @@
 }
 
 .section2 {
-    height: 170px;
-    background-color: rgb(226, 225, 225);
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    text-align: center;
 
-    .row2-queries {
-
-        
-
-        @media screen and (max-width: 450px) {
-            display: block;
-        }
-    }
-
-    @media screen and (max-width: 450px) {
-        height: 380px;
+    .marks {
+        position: relative;
+        top: 25px;
+        color: rgb(0, 0, 0);
+        font-size: 30px;
+        font-family: 'Russo One', sans-serif;
     }
 }
 
@@ -178,19 +178,5 @@
 
     @media screen and (max-width: 450px) {
         height: auto;
-    }
-}
-
-.section5 {
-    background-color: rgb(255, 255, 255);
-    height: 250px;
-    text-align: center;
-
-    .marks {
-        position: relative;
-        top: 25px;
-        color: rgb(0, 0, 0);
-        font-size: 30px;
-        font-family: 'Russo One', sans-serif;
     }
 }
