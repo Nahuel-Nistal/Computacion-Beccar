@@ -109,6 +109,12 @@ footer .footer-media-queries iframe {
 .section1 .image-car img {
   filter: brightness(40%);
 }
+@media screen and (max-width: 450px) {
+  .section1 .image-car img {
+    height: 200px;
+    object-fit: cover;
+  }
+}
 .section1 .image-car .text-car {
   text-align: center;
   top: 2.5cm;
@@ -178,6 +184,7 @@ footer .footer-media-queries iframe {
 @media screen and (max-width: 450px) {
   .section3 .row3-queries .box {
     margin-top: 10px;
+    margin-bottom: -120px;
   }
 }
 .section3 .row3-queries .inf-box {
@@ -186,6 +193,11 @@ footer .footer-media-queries iframe {
   color: aliceblue;
   padding: 40px;
   font-family: "Russo One", sans-serif;
+}
+@media screen and (max-width: 450px) {
+  .section3 .row3-queries .inf-box {
+    bottom: 150px;
+  }
 }
 .section3 .row3-queries .bloq-s3 {
   position: relative;
@@ -196,13 +208,18 @@ footer .footer-media-queries iframe {
   font-family: "Russo One", sans-serif;
   text-decoration: none;
 }
+@media screen and (max-width: 450px) {
+  .section3 .row3-queries .bloq-s3 {
+    bottom: 100px;
+  }
+}
 .section3 .row3-queries .bloq-s3:hover {
   background-color: rgb(13, 13, 70);
 }
 @media screen and (max-width: 450px) {
   .section3 .row3-queries {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 450px) {
@@ -292,7 +309,7 @@ footer .footer-media-queries iframe {
   grid-template-areas: "info-grid info-grid info-grid" "caja caja caja" "info-grid2 info-grid2 info-grid2" "caja2 caja2 caja2";
 }
 .serv-section .info-serv {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
   grid-area: info-grid;
@@ -315,13 +332,58 @@ footer .footer-media-queries iframe {
 .serv-section .caj-serv {
   background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
   grid-area: caja;
-  padding: 20px;
 }
-.serv-section .caj-serv .boxes-cent {
-  margin-top: 70px;
+.serv-section .caj-serv .row4-queries .box4 {
+  width: 95%;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+  filter: brightness(50%);
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv .row4-queries .box4 {
+    margin-top: 10px;
+    margin-bottom: -120px;
+  }
+}
+.serv-section .caj-serv .row4-queries .inf-box4 {
+  position: relative;
+  bottom: 230px;
+  color: aliceblue;
+  padding: 40px;
+  font-family: "Russo One", sans-serif;
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv .row4-queries .inf-box4 {
+    bottom: 150px;
+  }
+}
+.serv-section .caj-serv .row4-queries .bloq-s4 {
+  position: relative;
+  padding: 10px 50px;
+  bottom: 200px;
+  box-shadow: 0px 0px 0px 2px white;
+  color: aliceblue;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv .row4-queries .bloq-s4 {
+    bottom: 100px;
+  }
+}
+.serv-section .caj-serv .row4-queries .bloq-s4:hover {
+  background-color: rgb(13, 13, 70);
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv .row4-queries {
+    display: inline-block;
+    margin-top: 30px;
+  }
 }
 .serv-section .info-serv-2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/fondo.jpg);
   background-size: cover;
   background-attachment: fixed;
   grid-area: info-grid2;
@@ -341,8 +403,54 @@ footer .footer-media-queries iframe {
   display: flex;
   justify-content: space-around;
 }
-.serv-section .caj-serv-2 .boxes-cent {
-  margin-top: 70px;
+.serv-section .caj-serv-2 .row4-queries .box4 {
+  width: 95%;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+  filter: brightness(50%);
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv-2 .row4-queries .box4 {
+    margin-top: 10px;
+    margin-bottom: -120px;
+  }
+}
+.serv-section .caj-serv-2 .row4-queries .inf-box4 {
+  position: relative;
+  bottom: 230px;
+  color: aliceblue;
+  padding: 40px;
+  font-family: "Russo One", sans-serif;
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv-2 .row4-queries .inf-box4 {
+    bottom: 150px;
+  }
+}
+.serv-section .caj-serv-2 .row4-queries .bloq-s4 {
+  position: relative;
+  padding: 10px 50px;
+  bottom: 200px;
+  box-shadow: 0px 0px 0px 2px white;
+  color: aliceblue;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv-2 .row4-queries .bloq-s4 {
+    bottom: 100px;
+  }
+}
+.serv-section .caj-serv-2 .row4-queries .bloq-s4:hover {
+  background-color: rgb(13, 13, 70);
+}
+@media screen and (max-width: 450px) {
+  .serv-section .caj-serv-2 .row4-queries {
+    display: inline-block;
+    margin-top: 30px;
+  }
 }
 
 /*----------     Ofertas     ----------*/

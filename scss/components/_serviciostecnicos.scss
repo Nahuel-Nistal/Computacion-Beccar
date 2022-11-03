@@ -13,7 +13,7 @@
         "caja2 caja2 caja2";
 
     .info-serv {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/fondo.jpg);
         background-size: cover;
         background-attachment: fixed;
         grid-area: info-grid;
@@ -39,15 +39,61 @@
     .caj-serv {
         background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
         grid-area: caja;
-        padding: 20px;
 
-        .boxes-cent {
-            margin-top: 70px;
+        .row4-queries {
+            .box4 {
+                width: 95%;
+                height: 300px;
+                margin-top: 50px;
+                object-fit: cover;
+                box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+                filter: brightness(50%);
+
+                @media screen and (max-width: 450px) {
+                    margin-top: 10px;
+                    margin-bottom: -120px;
+                }
+            }
+
+            .inf-box4 {
+                position: relative;
+                bottom: 230px;
+                color: aliceblue;
+                padding: 40px;
+                font-family: 'Russo One', sans-serif;
+
+                @media screen and (max-width: 450px) {
+                    bottom: 150px;
+                }
+            }
+
+            .bloq-s4 {
+                position: relative;
+                padding: 10px 50px;
+                bottom: 200px;
+                box-shadow: 0px 0px 0px 2px white;
+                color: aliceblue;
+                font-family: 'Russo One', sans-serif;
+                text-decoration: none;
+
+                @media screen and (max-width: 450px) {
+                    bottom: 100px;
+                }
+            }
+
+            .bloq-s4:hover {
+                background-color: rgb(13, 13, 70);
+            }
+
+            @media screen and (max-width: 450px) {
+                display: inline-block;
+                margin-top: 30px;
+            }
         }
     }
 
     .info-serv-2 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/serv-tec-esp.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imagenes/fondo.jpg);
         background-size: cover;
         background-attachment: fixed;
         grid-area: info-grid2;
@@ -69,8 +115,55 @@
         display: flex;
         justify-content: space-around;
 
-        .boxes-cent {
-            margin-top: 70px;
+        .row4-queries {
+            .box4 {
+                width: 95%;
+                height: 300px;
+                margin-top: 50px;
+                object-fit: cover;
+                box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+                filter: brightness(50%);
+
+                @media screen and (max-width: 450px) {
+                    margin-top: 10px;
+                    margin-bottom: -120px;
+                }
+            }
+
+            .inf-box4 {
+                position: relative;
+                bottom: 230px;
+                color: aliceblue;
+                padding: 40px;
+                font-family: 'Russo One', sans-serif;
+
+                @media screen and (max-width: 450px) {
+                    bottom: 150px;
+                }
+            }
+
+            .bloq-s4 {
+                position: relative;
+                padding: 10px 50px;
+                bottom: 200px;
+                box-shadow: 0px 0px 0px 2px white;
+                color: aliceblue;
+                font-family: 'Russo One', sans-serif;
+                text-decoration: none;
+
+                @media screen and (max-width: 450px) {
+                    bottom: 100px;
+                }
+            }
+
+            .bloq-s4:hover {
+                background-color: rgb(13, 13, 70);
+            }
+
+            @media screen and (max-width: 450px) {
+                display: inline-block;
+                margin-top: 30px;
+            }
         }
     }
 }
