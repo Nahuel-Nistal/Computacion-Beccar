@@ -16,19 +16,33 @@
             box-shadow: 0px 0px 0px 2px rgb(10, 10, 10);
             font-size: 18px;
         }
+
+        .buttom-car-s:hover {
+            box-shadow: 0px 0px 0px 2px rgb(131, 131, 131);
+        }
     }
 }
 
 .section-prod {
     height: 650px;
 
-    .div-cards {
-        padding: 20px;
+    .row-ofert {
+        .div-cards {
+            padding: 20px;
 
-        .sec-oferts {
-            margin-top: 30px;
-            width: 100%;
-            text-align: left;
+            .sec-oferts {
+                margin-top: 30px;
+                width: 100%;
+                text-align: left;
+            }
         }
+
+        @media screen and (max-width: 450px) {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        height: auto;
     }
 }

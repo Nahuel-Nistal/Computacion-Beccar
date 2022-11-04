@@ -16,6 +16,11 @@
         font-size: 25px;
         margin-bottom: 30px;
         margin-left: 60px;
+
+        @media screen and (max-width: 450px) {
+            font-size: 21px;
+            margin-left: 0px;
+        }
     }
 
     .controls {
@@ -28,6 +33,12 @@
         border: 1px solid blue;
         font-family: 'Calibri';
         font-size: 15px;
+
+        @media screen and (max-width: 450px) {
+            width: 100%;
+            margin-left: 0px;
+            font-size: 13px;
+        }
     }
 
     .botons {
@@ -37,5 +48,21 @@
         padding: 12px;
         margin-left: 60px;
         color: white;
+
+        @media screen and (max-width: 450px) {
+            width: 100%;
+            margin-left: 0px;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .botons:hover {
+        background-color: rgb(87, 86, 86);
+    }
+
+    @media screen and (max-width: 450px) {
+        width: auto;
+        margin: 30px;
     }
 }
