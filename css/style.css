@@ -400,8 +400,6 @@ footer .footer-media-queries iframe {
 .serv-section .caj-serv-2 {
   background: linear-gradient(rgb(0, 0, 51), rgb(70, 70, 70));
   grid-area: caja2;
-  display: flex;
-  justify-content: space-around;
 }
 .serv-section .caj-serv-2 .row4-queries .box4 {
   width: 95%;
@@ -572,18 +570,101 @@ footer .footer-media-queries iframe {
 /*----------     Atencion al cliente     ----------*/
 .at-seccion {
   width: 100%;
-  background-color: black;
+  height: 470px;
+  background: linear-gradient(rgb(3, 0, 48), rgb(0, 0, 0));
   color: white;
-  padding: 50px;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
+}
+.at-seccion div h1 {
+  font-family: "Russo One", sans-serif;
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: left;
+}
+.at-seccion div .line-n {
+  border-top: 2px solid rgb(255, 255, 255);
+  height: 2px;
+  width: 70%;
+  text-align: left;
+  padding: 0;
+  margin-top: 20px;
+}
+.at-seccion div .line-p {
+  font-family: "Russo One", sans-serif;
+  font-size: 18px;
+  margin-top: 30px;
+  text-align: left;
+}
+.at-seccion div .im-prim {
+  height: 470px;
+  width: 400px;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+.at-seccion div .icon-at {
+  background: white;
+  width: 65px;
+  padding: 20px;
+  border-radius: 0.5cm;
+  position: relative;
+  bottom: 440px;
+  left: 190px;
+  margin: 27px;
+}
+.at-seccion div .tit-ar {
+  position: relative;
+  top: 70px;
+  margin: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+}
+.at-seccion div .des-ar {
+  position: relative;
+  top: 30px;
+  margin-top: 50px;
+  font-size: 15px;
+  left: 20px;
 }
 
 .at-seccion2 {
-  padding: 100px;
   width: 100%;
+  height: 540px;
   text-align: center;
+}
+.at-seccion2 .tit-gat {
+  color: rgb(0, 0, 122);
+  font-family: "Russo One", sans-serif;
+  font-size: 45px;
+  margin-bottom: 60px;
+  position: relative;
+  top: 40px;
+}
+.at-seccion2 .row-queries-at .box-at {
+  width: 95%;
+  height: 300px;
+  margin-top: 50px;
+  object-fit: cover;
+  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
+  filter: brightness(50%);
+}
+.at-seccion2 .row-queries-at .inf-box-at {
+  position: relative;
+  bottom: 230px;
+  color: aliceblue;
+  padding: 40px;
+  font-family: "Russo One", sans-serif;
+}
+.at-seccion2 .row-queries-at .bloq-at {
+  position: relative;
+  padding: 10px 50px;
+  bottom: 200px;
+  box-shadow: 0px 0px 0px 2px white;
+  color: aliceblue;
+  font-family: "Russo One", sans-serif;
+  text-decoration: none;
+}
+.at-seccion2 .row-queries-at .bloq-at:hover {
+  background-color: rgb(13, 13, 70);
 }
 
 /*# sourceMappingURL=style.css.map */
