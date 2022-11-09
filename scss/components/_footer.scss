@@ -26,6 +26,10 @@ footer {
             @media screen and (max-width: 450px) {
                 margin-left: 5px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-left: 5px;
+            }
         }
 
         a {
@@ -36,10 +40,19 @@ footer {
             font-size: 15px;
             font-weight: lighter;
             color: rgb(255, 255, 255);
+            margin-bottom: 2px;
 
             @media screen and (max-width: 450px) {
                 margin-left: 5px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-left: 5px;
+            }
+        }
+
+        a:hover {
+            color: rgba(92, 92, 92, 0.425);
         }
 
         iframe {
@@ -50,14 +63,26 @@ footer {
             @media screen and (max-width: 450px) {
                 margin-bottom: 20px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-bottom: 20px;
+            }
         }
 
         @media screen and (max-width: 450px) {
             display: inline-block;
         }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            display: inline-block;
+        }
     }
 
     @media screen and (max-width: 450px) {
+        height: auto;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
         height: auto;
     }
 }

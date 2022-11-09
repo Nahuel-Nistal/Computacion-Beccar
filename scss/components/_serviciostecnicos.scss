@@ -50,20 +50,13 @@
                 filter: brightness(50%);
 
                 @media screen and (max-width: 450px) {
-                    margin-top: 10px;
-                    margin-bottom: -120px;
+                    margin-bottom: -30px;
+                    margin-top: 20px;
                 }
-            }
 
-            .inf-box4 {
-                position: relative;
-                bottom: 230px;
-                color: aliceblue;
-                margin: 10%;
-                font-family: 'Russo One', sans-serif;
-
-                @media screen and (max-width: 450px) {
-                    bottom: 150px;
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    margin-bottom: -30;
+                    margin-top: 20px;
                 }
             }
 
@@ -71,7 +64,7 @@
                 position: relative;
                 padding: 10px;
                 border-radius: 0.5cm;
-                bottom: 200px;
+                bottom: 150px;
                 background-color: rgb(65, 65, 65);
                 color: aliceblue;
                 font-family: 'Russo One', sans-serif;
@@ -87,6 +80,11 @@
             }
 
             @media screen and (max-width: 450px) {
+                display: inline-block;
+                margin-top: 30px;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
                 display: inline-block;
                 margin-top: 30px;
             }
@@ -124,28 +122,22 @@
                 filter: brightness(50%);
 
                 @media screen and (max-width: 450px) {
-                    margin-top: 10px;
-                    margin-bottom: -120px;
+                    margin-bottom: -30px;
+                    margin-top: 20px;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    margin-bottom: -30;
+                    margin-top: 20px;
                 }
             }
 
-            .inf-box4 {
-                position: relative;
-                bottom: 230px;
-                color: aliceblue;
-                margin: 10%;
-                font-family: 'Russo One', sans-serif;
-
-                @media screen and (max-width: 450px) {
-                    bottom: 150px;
-                }
-            }
 
             .bloq-s4 {
                 position: relative;
                 padding: 10px;
                 border-radius: 0.5cm;
-                bottom: 200px;
+                bottom: 150px;
                 background-color: rgb(65, 65, 65);
                 color: aliceblue;
                 font-family: 'Russo One', sans-serif;
@@ -164,10 +156,19 @@
                 display: inline-block;
                 margin-top: 30px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                display: inline-block;
+                margin-top: 30px;
+            }
         }
     }
 
     @media screen and (max-width: 450px) {
-        grid-template-rows: auto;
+        grid-template-rows: auto 1030px auto 1030px;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
+        grid-template-rows: auto 1100px auto 1100px;
     }
 }

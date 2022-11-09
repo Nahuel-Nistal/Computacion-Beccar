@@ -14,7 +14,10 @@
                 object-fit: cover;
             }
 
-
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                height: 300px;
+                object-fit: cover;
+            }
         }
 
         .text-car {
@@ -55,9 +58,17 @@
         @media screen and (max-width: 450px) {
             height: auto;
         }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            height: auto;
+        }
     }
 
     @media screen and (max-width: 450px) {
+        height: auto;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
         height: auto;
     }
 }
@@ -96,6 +107,11 @@
                 margin-top: 10px;
                 margin-bottom: -120px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-top: 10px;
+                margin-bottom: -120px;
+            }
         }
 
         .inf-box {
@@ -106,6 +122,10 @@
             font-family: 'Russo One', sans-serif;
 
             @media screen and (max-width: 450px) {
+                bottom: 150px;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
                 bottom: 150px;
             }
         }
@@ -122,6 +142,10 @@
             @media screen and (max-width: 450px) {
                 bottom: 100px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                bottom: 100px;
+            }
         }
 
         .bloq-s3:hover {
@@ -132,9 +156,18 @@
             display: inline-block;
             margin-top: 30px;
         }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            display: inline-block;
+            margin-top: 30px;
+        }
     }
 
     @media screen and (max-width: 450px) {
+        height: auto;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
         height: auto;
     }
 }
@@ -156,6 +189,11 @@
                 margin-top: 30px;
                 text-align: center;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-top: 30px;
+                text-align: center;
+            }
         }
 
         .tit2 {
@@ -165,6 +203,10 @@
             font-family: 'Russo One', sans-serif;
 
             @media screen and (max-width: 450px) {
+                text-align: center;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
                 text-align: center;
             }
         }
@@ -178,6 +220,10 @@
             @media screen and (max-width: 450px) {
                 text-align: center;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                text-align: center;
+            }
         }
 
         .cod-QR {
@@ -187,6 +233,10 @@
             background-color: rgb(94, 94, 94);
 
             @media screen and (max-width: 450px) {
+                margin-top: 20px;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
                 margin-top: 20px;
             }
         }
@@ -204,14 +254,28 @@
                 left: 65px;
                 height: 80px;
             }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin-bottom: 30px;
+                left: 65px;
+                height: 80px;
+            }
         }
 
         @media screen and (max-width: 450px) {
             display: inline-block;
         }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            display: inline-block;
+        }
     }
 
     @media screen and (max-width: 450px) {
+        height: auto;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
         height: auto;
     }
 }
