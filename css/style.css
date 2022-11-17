@@ -731,13 +731,13 @@ footer .footer-media-queries iframe {
   background: linear-gradient(rgb(3, 0, 48), rgb(0, 0, 0));
   color: white;
 }
-.at-seccion div h1 {
+.at-seccion .row-at div h1 {
   font-family: "Russo One", sans-serif;
   font-size: 30px;
   margin-top: 50px;
   text-align: left;
 }
-.at-seccion div .line-n {
+.at-seccion .row-at div .line-n {
   border-top: 2px solid rgb(255, 255, 255);
   height: 2px;
   width: 70%;
@@ -745,19 +745,43 @@ footer .footer-media-queries iframe {
   padding: 0;
   margin-top: 20px;
 }
-.at-seccion div .line-p {
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at div .line-n {
+    width: auto;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at div .line-n {
+    width: auto;
+  }
+}
+.at-seccion .row-at div .line-p {
   font-family: "Russo One", sans-serif;
   font-size: 18px;
   margin-top: 30px;
   text-align: left;
 }
-.at-seccion div .im-prim {
+.at-seccion .row-at div .im-prim {
   height: 470px;
   width: 400px;
   object-fit: cover;
   filter: brightness(50%);
 }
-.at-seccion div .icon-at {
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at div .im-prim {
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at div .im-prim {
+    margin-top: 20px;
+    height: 350px;
+    width: 100%;
+  }
+}
+.at-seccion .row-at div .icon-at {
   background: white;
   width: 65px;
   padding: 20px;
@@ -767,7 +791,19 @@ footer .footer-media-queries iframe {
   left: 190px;
   margin: 27px;
 }
-.at-seccion div .tit-ar {
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at div .icon-at {
+    left: 0px;
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at div .icon-at {
+    left: 0px;
+    visibility: hidden;
+  }
+}
+.at-seccion .row-at div .tit-ar {
   position: relative;
   top: 70px;
   margin: 20px;
@@ -775,12 +811,56 @@ footer .footer-media-queries iframe {
   font-weight: bold;
   color: white;
 }
-.at-seccion div .des-ar {
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at div .tit-ar {
+    top: -300px;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at div .tit-ar {
+    top: -300px;
+    margin: 0px;
+  }
+}
+.at-seccion .row-at div .des-ar {
   position: relative;
   top: 30px;
   margin-top: 50px;
   font-size: 15px;
   left: 20px;
+}
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at div .des-ar {
+    top: -330px;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at div .des-ar {
+    top: -330px;
+    left: 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .at-seccion .row-at {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion .row-at {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .at-seccion {
+    height: 1000px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion {
+    height: 1000px;
+  }
 }
 
 .at-seccion2 {
@@ -796,32 +876,102 @@ footer .footer-media-queries iframe {
   position: relative;
   top: 40px;
 }
+@media screen and (max-width: 450px) {
+  .at-seccion2 .tit-gat {
+    font-size: 35px;
+    margin: 8px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 .tit-gat {
+    margin: 8px;
+  }
+}
 .at-seccion2 .row-queries-at .box-at {
-  width: 95%;
+  margin: 10px;
   height: 300px;
   margin-top: 50px;
-  object-fit: cover;
-  box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
-  filter: brightness(50%);
+  box-shadow: 0px 0px 0px 1px rgba(20, 20, 20, 0.356);
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 .row-queries-at .box-at {
+    margin: 0px;
+    margin-top: 70px;
+  }
+}
+.at-seccion2 .row-queries-at .box-at:hover {
+  box-shadow: 0px 0px 0px 1px rgba(0, 104, 190, 0.664);
 }
 .at-seccion2 .row-queries-at .inf-box-at {
   position: relative;
-  bottom: 230px;
-  color: aliceblue;
+  top: 20px;
+  color: rgb(0, 0, 0);
   padding: 40px;
   font-family: "Russo One", sans-serif;
+  font-size: 22px;
+}
+.at-seccion2 .row-queries-at .inf-box-at2 {
+  position: relative;
+  bottom: 30px;
+  margin-top: 60px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.678);
+}
+@media screen and (max-width: 450px) {
+  .at-seccion2 .row-queries-at .inf-box-at2 {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 .row-queries-at .inf-box-at2 {
+    font-size: 15px;
+  }
 }
 .at-seccion2 .row-queries-at .bloq-at {
   position: relative;
   padding: 10px 50px;
-  bottom: 200px;
-  box-shadow: 0px 0px 0px 2px white;
-  color: aliceblue;
+  background-color: black;
+  box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: "Russo One", sans-serif;
   text-decoration: none;
 }
+@media screen and (max-width: 450px) {
+  .at-seccion2 .row-queries-at .bloq-at {
+    width: auto;
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 .row-queries-at .bloq-at {
+    width: auto;
+    padding: 10px;
+  }
+}
 .at-seccion2 .row-queries-at .bloq-at:hover {
-  background-color: rgb(13, 13, 70);
+  background-color: rgb(0, 78, 196);
+}
+@media screen and (max-width: 450px) {
+  .at-seccion2 .row-queries-at {
+    margin: 10px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 .row-queries-at {
+    margin: 10px;
+    display: block;
+  }
+}
+@media screen and (max-width: 450px) {
+  .at-seccion2 {
+    height: auto;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .at-seccion2 {
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -6,68 +6,136 @@
     background: linear-gradient(rgb(3, 0, 48), rgb(0, 0, 0));
     color: white;
 
-    div {
-        h1 {
-            font-family: 'Russo One', sans-serif;
-            font-size: 30px;
-            margin-top: 50px;
-            text-align: left;
+    .row-at {
+        div {
+            h1 {
+                font-family: 'Russo One', sans-serif;
+                font-size: 30px;
+                margin-top: 50px;
+                text-align: left;
+            }
+
+            .line-n {
+                border-top: 2px solid rgb(255, 255, 255);
+                height: 2px;
+                width: 70%;
+                text-align: left;
+                padding: 0;
+                margin-top: 20px;
+
+                @media screen and (max-width: 450px) {
+                    width: auto;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    width: auto;
+                }
+            }
+
+            .line-p {
+                font-family: 'Russo One', sans-serif;
+                font-size: 18px;
+                margin-top: 30px;
+                text-align: left;
+            }
         }
 
-        .line-n {
-            border-top: 2px solid rgb(255, 255, 255);
-            height: 2px;
-            width: 70%;
-            text-align: left;
-            padding: 0;
-            margin-top: 20px;
+        div {
+            .im-prim {
+                height: 470px;
+                width: 400px;
+                object-fit: cover;
+                filter: brightness(50%);
+
+                @media screen and (max-width: 450px) {
+                    margin-top: 20px;
+                    height: 300px;
+                    width: 100%;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    margin-top: 20px;
+                    height: 350px;
+                    width: 100%;
+                }
+            }
+
+            .icon-at {
+                background: white;
+                width: 65px;
+                padding: 20px;
+                border-radius: 0.5cm;
+                position: relative;
+                bottom: 440px;
+                left: 190px;
+                margin: 27px;
+
+                @media screen and (max-width: 450px) {
+                    left: 0px;
+                    visibility: hidden;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    left: 0px;
+                    visibility: hidden;
+                }
+            }
         }
 
-        .line-p {
-            font-family: 'Russo One', sans-serif;
-            font-size: 18px;
-            margin-top: 30px;
-            text-align: left;
+        div {
+            .tit-ar {
+                position: relative;
+                top: 70px;
+                margin: 20px;
+                font-size: 19px;
+                font-weight: bold;
+                color: white;
+
+                @media screen and (max-width: 450px) {
+                    top: -300px;
+                    margin: 0px;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    top: -300px;
+                    margin: 0px;
+                }
+            }
+
+            .des-ar {
+                position: relative;
+                top: 30px;
+                margin-top: 50px;
+                font-size: 15px;
+                left: 20px;
+
+                @media screen and (max-width: 450px) {
+                    top: -330px;
+                    left: 0px;
+                }
+
+                @media screen and (min-width: 451px) and (max-width: 1024px) {
+                    top: -330px;
+                    left: 0px;
+                }
+            }
+        }
+
+        @media screen and (max-width: 450px) {
+            display: inline-block;
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            display: inline-block;
         }
     }
 
-    div {
-        .im-prim {
-            height: 470px;
-            width: 400px;
-            object-fit: cover;
-            filter: brightness(50%);
-        }
-
-        .icon-at {
-            background: white;
-            width: 65px;
-            padding: 20px;
-            border-radius: 0.5cm;
-            position: relative;
-            bottom: 440px;
-            left: 190px;
-            margin: 27px;
-        }
+    @media screen and (max-width: 450px) {
+        height: 1000px;
     }
 
-    div {
-        .tit-ar {
-            position: relative;
-            top: 70px;
-            margin: 20px;
-            font-size: 19px;
-            font-weight: bold;
-            color: white;
-        }
-
-        .des-ar {
-            position: relative;
-            top: 30px;
-            margin-top: 50px;
-            font-size: 15px;
-            left: 20px;
-        }
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
+        height: 1000px;
     }
 }
 
@@ -83,38 +151,99 @@
         margin-bottom: 60px;
         position: relative;
         top: 40px;
+
+        @media screen and (max-width: 450px) {
+            font-size: 35px;
+            margin: 8px;
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            margin: 8px;
+        }
     }
 
     .row-queries-at {
         .box-at {
-            width: 95%;
+            margin: 10px;
             height: 300px;
             margin-top: 50px;
-            object-fit: cover;
-            box-shadow: 0px 0px 30px 5px rgb(20, 20, 20);
-            filter: brightness(50%);
+            box-shadow: 0px 0px 0px 1px rgba(20, 20, 20, 0.356);
+            background-color: rgb(255, 255, 255);
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                margin: 0px;
+                margin-top: 70px;
+            }
+        }
+
+        .box-at:hover {
+            box-shadow: 0px 0px 0px 1px rgba(0, 104, 190, 0.664);
         }
 
         .inf-box-at {
             position: relative;
-            bottom: 230px;
-            color: aliceblue;
+            top: 20px;
+            color: rgb(0, 0, 0);
             padding: 40px;
             font-family: 'Russo One', sans-serif;
+            font-size: 22px;
+        }
+
+        .inf-box-at2 {
+            position: relative;
+            bottom: 30px;
+            margin-top: 60px;
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.678);
+
+            @media screen and (max-width: 450px) {
+                font-size: 15px;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                font-size: 15px;
+            }
         }
 
         .bloq-at {
             position: relative;
             padding: 10px 50px;
-            bottom: 200px;
-            box-shadow: 0px 0px 0px 2px white;
-            color: aliceblue;
+            background-color: black;
+            box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             font-family: 'Russo One', sans-serif;
             text-decoration: none;
+
+            @media screen and (max-width: 450px) {
+                width: auto;
+                padding: 10px;
+            }
+
+            @media screen and (min-width: 451px) and (max-width: 1024px) {
+                width: auto;
+                padding: 10px;
+            }
         }
 
         .bloq-at:hover {
-            background-color: rgb(13, 13, 70);
+            background-color: rgb(0, 78, 196);
         }
+
+        @media screen and (max-width: 450px) {
+            margin: 10px;
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 1024px) {
+            margin: 10px;
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        height: auto;
+    }
+
+    @media screen and (min-width: 451px) and (max-width: 1024px) {
+        height: auto;
     }
 }
